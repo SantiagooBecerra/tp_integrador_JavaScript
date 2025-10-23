@@ -15,14 +15,14 @@ El código está basado en una versión original escrita en **Python**, pero ada
 ## ⚙️ Instalación
 
 1. Clonar este repositorio o crear una carpeta y copiar los archivos.
-   ```
+   ``` bash
    git clone https://github.com/usuario/makerspace-js.git
    cd makerspace-js
 ---
 ## ▶️ Ejecución
 
 Ejecutá el siguiente comando en la terminal desde la carpeta del proyecto:
-   ```
+   ``` bash
    node makerSpace.js
    ```
 ---
