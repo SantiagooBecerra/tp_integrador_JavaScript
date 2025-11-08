@@ -43,8 +43,9 @@ Ejecutá el siguiente comando en la terminal desde la carpeta del proyecto:
 ```
 makerSpace/
 │
-├── makerSpace.js     # Código principal del programa
+├── tp.js     # Código principal del programa
 ├── package.json      # Configuración del proyecto Node.js
 └── README.md         # Documentación del proyecto
+
 
 
