@@ -30,7 +30,7 @@ Este programa hace uso de diversos elementos y estructuras de programación en J
 1. Clonar este repositorio o crear una carpeta y copiar los archivos.
    ``` bash
    git clone https://github.com/SantiagooBecerra/tp_integrador_JavaScript.git
-   cd makerspace-js
+   cd tp_integrador_JavaScript
 ---
 ## ▶️ Ejecución
 
@@ -41,11 +41,12 @@ Ejecutá el siguiente comando en la terminal desde la carpeta del proyecto:
 ---
 ## 🧩 Estructura del proyecto
 ```
-makerSpace/
+tp_integrador_JavaScript/
 │
 ├── tp.js     # Código principal del programa
 ├── package.json      # Configuración del proyecto Node.js
 └── README.md         # Documentación del proyecto
+
 
 
 
