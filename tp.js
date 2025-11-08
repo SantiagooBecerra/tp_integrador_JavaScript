@@ -51,12 +51,9 @@ function contarVisitasPorCurso(visitas) {
 
 function primerEstudiante(visitas) {
   console.log("\nPrimer estudiante que ingresó a la MakerSpace:");
-  if (visitas.length === 0) {
-    console.log("No hay visitas registradas");
-  } else {
-    console.log(visitas[0].nombre);
-  }
+  visitas.length === 0? console.log("No hay visitas registradas"): console.log(visitas[0].nombre);
 }
+
 
 function main() {
   const visitas = registrarVisitas();
@@ -90,4 +87,5 @@ function main() {
 }
 
 main();
+
 
