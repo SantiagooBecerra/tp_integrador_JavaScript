@@ -1,10 +1,9 @@
-// Para usar input por consola instalá prompt-sync con:
-// npm install prompt-sync
+// Para usar input por consola instalá prompt-sync con: npm install prompt-sync
 
 const prompt = require("prompt-sync")({ sigint: true });
 
 function registrarVisitas() {
-  const visitas = []; // Lista vacía para guardar las visitas
+  const visitas = []; // Array vacío para guardar las visitas
 
   for (let i = 0; i < 3; i++) { // Repite 3 veces
     console.log(`\nRegistro N° ${i + 1}`);
@@ -91,3 +90,4 @@ function main() {
 }
 
 main();
+
