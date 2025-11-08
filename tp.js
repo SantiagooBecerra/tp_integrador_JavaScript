@@ -27,11 +27,11 @@ function registroVisitas(visitas) {
   if (visitas.length === 0) {
     console.log("No hay visitas registradas");
     return;
-  }
+  }else{
   console.log("\n--- Lista de estudiantes que ingresaron a la MakerSpace ---");
   visitas.forEach(visita => {
     console.log(`${visita.nombre} - Curso ${visita.curso} - Motivo: ${visita.motivo}`);
-  });
+  })};
 }
 
 function contarVisitasPorCurso(visitas) {
@@ -87,5 +87,6 @@ function main() {
 }
 
 main();
+
 
 
