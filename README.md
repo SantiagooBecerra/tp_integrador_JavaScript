@@ -36,7 +36,7 @@ Este programa hace uso de diversos elementos y estructuras de programación en J
 
 Ejecutá el siguiente comando en la terminal desde la carpeta del proyecto:
    ``` bash
-   node makerSpace.js
+   node tp.js
    ```
 ---
 ## 🧩 Estructura del proyecto
@@ -46,4 +46,5 @@ makerSpace/
 ├── makerSpace.js     # Código principal del programa
 ├── package.json      # Configuración del proyecto Node.js
 └── README.md         # Documentación del proyecto
+
 
